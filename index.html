@@ -1,0 +1,37 @@
+
+<html>
+<body>
+<h1>JavaScript Variables</h1>
+
+<form>
+    <label>Addition</label> 
+    <input type="number" id="add1" required> +
+    <input type="number" id="add2" required>
+    <button type="button" onclick="document.getElementById('displayAdd').value = +add1.value + +add2.value"> Find Addition </button>
+    <input type="text" id="displayAdd" class="display">
+    <br><br>
+
+    <label>Subtraction</label> 
+    <input type="number" id="sub1" required> -
+    <input type="number" id="sub2" required>
+    <button type="button" onclick="document.getElementById('displaySub').value = +sub1.value - +sub2.value"> Find Subtraction</button>
+    <input type="text" id="displaySub" class="display">
+    <br><br>
+
+    <label>Division</label> 
+    <input type="number" id="div1" required> /
+    <input type="number" id="div2" required>
+    <button type="button" onclick="document.getElementById('displayDiv').value = +div1.value / +div2.value"> Find Division </button>
+    <input type="text" id="displayDiv" class="display">
+    <br><br>
+
+    <label>Multiplication</label>
+    <input type="number" id="mul1" required> *
+    <input type="number" id="mul2" required>
+    <button type="button" onclick="document.getElementById('displayMul').value = +mul1.value * +mul2.value"> Find Multiplication </button>
+    <input type="text" id="displayMul" class="display">
+    <br><br>
+</form>
+
+</body>
+</html>
